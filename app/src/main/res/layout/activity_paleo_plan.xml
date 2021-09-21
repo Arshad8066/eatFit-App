@@ -1,0 +1,239 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MediterraneanDiet"
+        android:padding="40dp"
+        >
+
+        <TextView
+            android:id="@+id/tvPp1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Paleo Plan"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/tvPp2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="The paleo diet is designed to resemble what human hunter-gatherer ancestors ate thousands of years ago.\n
+            \n
+Although it’s impossible to know exactly what human ancestors ate in different parts of the world, researchers believe their diets consisted of whole foods.\n
+\n
+By following a whole food-based diet and leading physically active lives, hunter-gatherers presumably had much lower rates of lifestyle diseases, such as obesity, diabetes and heart disease.\n
+\n
+In fact, several studies suggest that this diet can lead to significant weight loss (without calorie counting) and major improvements in health.\n
+\n
+This article is a basic introduction to the paleo diet, providing a simple meal plan and other essential information.\n
+"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvPp1"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/tvPp3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="A Sample Paleo Menu for One Week"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:textStyle="bold"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.075"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvPp2" />
+
+
+        <TextView
+            android:id="@+id/tvPp4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Monday\n
+            \n
+•	Breakfast: Eggs and vegetables fried in coconut oil. One piece of fruit.\n
+\n
+•	Lunch: Chicken salad with olive oil. Handful of nuts.\n
+\n
+•	Dinner: Burgers (no bun) fried in butter, with vegetables and some salsa.\n
+"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.075"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvPp3" />
+
+
+        <TextView
+            android:id="@+id/tvPp5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Tuesday\n
+            \n
+•	Breakfast: Bacon and eggs, with a piece of fruit.\n
+\n
+•	Lunch: Leftover burgers from the night before.\n
+\n
+•	Dinner: Salmon fried in butter, with vegetables.\n
+"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.075"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvPp4" />
+
+        <TextView
+            android:id="@+id/tvPp6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Wednesday\n
+            \n
+•	Breakfast: Meat with vegetables (leftovers from night before).\n
+\n
+•	Lunch: Sandwich in a lettuce leaf, with meat and fresh vegetables.\n
+\n
+•	Dinner: Ground beef stir-fry with vegetables. Some berries.\n
+"
+
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.075"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvPp5" />
+
+
+        <TextView
+            android:id="@+id/tvPp7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Thursday\n
+            \n
+•	Breakfast: Eggs and a piece of fruit.\n
+\n
+•	Lunch: Leftover stir-fry from the night before. A handful of nuts.\n
+n\n\
+•	Dinner: Fried pork with vegetables.\n
+
+"
+
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.075"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvPp6" />
+
+
+        <TextView
+            android:id="@+id/tvPp8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Friday\n
+            \n
+•	Breakfast: Eggs and vegetables fried in coconut oil.\n
+\n
+•	Lunch: Chicken salad with olive oil. Handful of nuts.\n
+\n
+•	Dinner: Steak with vegetables and sweet potatoes.\n
+
+
+"
+
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.075"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvPp7" />
+
+
+        <TextView
+            android:id="@+id/tvPp9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Saturday\n
+            \n
+•	Breakfast: Bacon and eggs with a piece of fruit.\n
+\n
+•	Lunch: Leftover steak and vegetables from the night before.\n
+\n
+•	Dinner: Baked salmon with vegetables and avocado\n
+"
+
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.075"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvPp8" />
+
+
+        <TextView
+            android:id="@+id/tvPp10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Sunday\n
+            \n
+•	Breakfast: Meat with vegetables (leftovers from night before).\n
+\n
+•	Lunch: Sandwich in a lettuce leaf, with meat and fresh vegetables.\n
+\n
+•	Dinner: Grilled chicken wings with vegetables and salsa.\n
+
+"
+
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.075"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvPp9" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

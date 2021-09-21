@@ -1,0 +1,246 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MediterraneanDiet"
+        android:padding="40dp"
+        >
+
+        <TextView
+            android:id="@+id/tvVp1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Vegan Plan"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/tvVp2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Veganism is becoming increasingly popular.\n
+            \n
+In the past few years, several celebrities have gone vegan, and a wealth of vegan products have appeared in stores.\n
+n\
+However, you may still be curious about what this eating pattern involves — and what you can and can’t eat on a vegan diet.\n
+This article tells you everything you need to know about veganism.\n
+
+"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvVp1"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:id="@+id/tvVp3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="A Vegan Sample Menu for One Week"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:textStyle="bold"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.075"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvVp2" />
+
+        <TextView
+            android:id="@+id/tvVp4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Monday\n
+            \n
+•	Breakfast: Vegan breakfast sandwich with tofu, lettuce, tomato, turmeric and a plant-milk chai latte.\n
+\n
+•	Lunch: Spiralized zucchini and quinoa salad with peanut dressing.\n
+\n
+•	Dinner: Red lentil and spinach dal over wild rice.\n
+
+"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.075"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvVp3" />
+
+
+        <TextView
+            android:id="@+id/tvVp5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Tuesday\n
+            \n
+•	Breakfast: Overnight oats made with fruit, fortified plant milk, chia seeds and nuts.\n
+\n
+•	Lunch: Seitan sauerkraut sandwich.\n
+\n
+•	Dinner: Pasta with a lentil bolognese sauce and a side salad.\n
+
+
+"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.075"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvVp4" />
+
+
+        <TextView
+            android:id="@+id/tvVp6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Wednesday\n
+            \n
+•	Breakfast: Mango and spinach smoothie made with fortified plant milk and a banana-flaxseed-walnut muffin.\n
+\n
+•	Lunch: Baked tofu sandwich with a side of tomato salad.\n
+\n
+•	Dinner: Vegan chili on a bed of amaranth.\n
+
+
+"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.075"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvVp5" />
+
+
+        <TextView
+            android:id="@+id/tvVp7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Thursday\n
+            \n
+•	Breakfast: Whole-grain toast with hazelnut butter, banana and a fortified plant yogurt.\n
+\n
+•	Lunch: Tofu noodle soup with vegetables.\n
+\n
+•	Dinner: Jacket sweet potatoes with lettuce, corn, beans, cashews and guacamole.\n
+
+
+"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.075"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvVp6" />
+
+
+        <TextView
+            android:id="@+id/tvVp8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Friday\n
+            \n
+•	Breakfast: Vegan chickpea and onion omelet and a cappuccino made with fortified plant milk.\n
+\n
+•	Lunch: Vegan tacos with mango-pineapple salsa.\n
+\n
+•	Dinner: Tempeh stir-fry with bok choy and broccoli.\n
+
+"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.075"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvVp7" />
+
+
+        <TextView
+            android:id="@+id/tvVp9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Saturday\n
+            \n
+•	Breakfast: Spinach and scrambled tofu wrap and a glass of fortified plant milk.\n
+\n
+•	Lunch: Spiced red lentil, tomato and kale soup with whole-grain toast and hummus.\n
+\n
+•	Dinner: Veggie sushi rolls, miso soup, edamame and wakame salad.\n
+
+"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.075"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvVp8" />
+
+
+
+        <TextView
+            android:id="@+id/tvVp10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Sunday\n
+            \n
+•	Breakfast: Chickpea pancakes, guacamole and salsa and a glass of fortified orange juice.\n
+\n
+•	Lunch: Tofu vegan quiche with a side of sautéed mustard greens.\n
+\n
+•	Dinner: Vegan spring rolls.\n
+"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.075"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvVp9" />
+
+
+
+
+
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

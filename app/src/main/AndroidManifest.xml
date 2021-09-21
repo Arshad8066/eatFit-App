@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ravi.firebaseone">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FireBaseOne">
+        <activity android:name=".Rating"></activity>
+        <activity android:name=".Bmicalculator" />
+        <activity android:name=".bmiactivity" />
+        <activity android:name=".VeganPlan" />
+        <activity android:name=".PaleoPlan" />
+        <activity android:name=".MediterraneanDiet" />
+        <activity android:name=".DiabeticPlan" />
+        <activity android:name=".PlantBased" />
+        <activity android:name=".weight_gain" />
+        <activity android:name=".Keto_diet" />
+        <activity android:name=".Weight_loss" />
+        <activity android:name=".Diet_plan" />
+        <activity android:name=".Activities.dashboard.DashboardActivity" />
+        <activity android:name=".Activities.HomeActivity" />
+        <activity android:name=".Activities.RegisterActivity" />
+        <activity android:name=".Activities.LoginActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".personfragment" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

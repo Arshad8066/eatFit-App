@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".Activities.LoginActivity">
+
+
+    <ImageView
+        android:id="@+id/imgpage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/home" />
+
+
+<TextView
+    android:layout_marginTop="15dp"
+    android:id="@+id/signin_text"
+    android:text="Sign In"
+    android:textSize="30dp"
+    android:textAlignment="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+    <EditText
+
+        android:id="@+id/email"
+        android:layout_width="334dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:hint=" Enter Email"
+        android:paddingLeft="60dp"
+        android:shadowColor="#120F0F"
+        android:textColor="#434242"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/passsignin"
+        android:layout_width="334dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:hint=" Enter password"
+        android:paddingLeft="60dp"
+        android:textColor="#434242"
+        android:textSize="16sp"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/singin_btn"
+        android:layout_width="334dp"
+        android:layout_height="71dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="38dp"
+        android:background="#68AA39"
+        android:backgroundTint="#8CAE82"
+        android:text="SIGN IN"
+        android:textColor="#000000"
+
+        android:textColorHighlight="#CAFADA"
+        android:textColorLink="#CAFADA"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="334dp"
+        android:layout_height="71dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text=" Not Registered Yet? Sign Up"
+        android:textColor="#616060"
+        android:textSize="24sp" />
+
+
+</LinearLayout>

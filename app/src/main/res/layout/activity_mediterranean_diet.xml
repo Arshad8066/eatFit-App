@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MediterraneanDiet"
+        android:padding="40dp"
+        >
+
+        <TextView
+            android:id="@+id/tvMp1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Mediterranean Plan"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/tvMp2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="The Mediterranean diet is based on the traditional foods that people used to eat in countries like Italy and Greece back in 1960.\n
+            \n
+Researchers noted that these people were exceptionally healthy compared to Americans and had a low risk of many lifestyle diseases.\n
+\n
+Numerous studies have now shown that the Mediterranean diet can cause weight loss and help prevent heart attacks, strokes, type 2 diabetes and premature death.\n
+\n
+There is no one right way to follow the Mediterranean diet, as there are many countries around the Mediterranean sea and people in different areas may have eaten different foods.\n
+\n
+This article describes the dietary pattern typically prescribed in studies that suggest it’s a healthy way of eating.\n
+\n
+Consider all of this as a general guideline, not something written in stone. The plan can be adjusted to your individual needs and preferences.\n
+
+"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvMp1"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:id="@+id/tvMp3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Sample Menu for One Week"
+            android:textColor="@color/black"
+            android:textSize="24dp"
+            android:textStyle="bold"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.075"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvMp2" />
+
+        <TextView
+            android:id="@+id/tvMp4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Monday\n
+            \n
+•	Breakfast: Greek yogurt with strawberries and oats.\n
+\n
+•	Lunch: Whole-grain sandwich with vegetables.\n
+\n
+•	Dinner: A tuna salad, dressed in olive oil. A piece of fruit for dessert\n
+"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.075"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvMp3" />
+
+        <TextView
+            android:id="@+id/tvMp5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Tuesday\n
+            \n
+•	Breakfast: Oatmeal with raisins.\n
+\n
+•	Lunch: Leftover tuna salad from the night before.\n
+\n
+•	Dinner: Salad with tomatoes, olives and feta cheese.\n
+
+"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.075"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvMp4" />
+
+
+        <TextView
+            android:id="@+id/tvMp6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Thursday\n
+            \n
+•	Breakfast: Yogurt with sliced fruits and nuts.\n
+\n
+•	Lunch: Leftover lasagne from the night before.\n
+\n
+•	Dinner: Broiled salmon, served with brown rice and vegetables.\n
+"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.075"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvMp5" />
+
+
+        <TextView
+            android:id="@+id/tvMp7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Friday\n
+            \n
+•	Breakfast: Eggs and vegetables, fried in olive oil.\n
+\n
+•	Lunch: Greek yogurt with strawberries, oats and nuts.\n
+\n
+•	Dinner: Grilled lamb, with salad and baked potato.\n
+"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.075"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvMp6" />
+
+        <TextView
+            android:id="@+id/tvMp8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Saturday\n
+            \n
+•	Breakfast: Oatmeal with raisins, nuts and an apple.\n
+\n
+•	Lunch: Whole-grain sandwich with vegetables.\n
+\n
+•	Dinner: Mediterranean pizza made with whole wheat, topped with cheese, vegetables and olives.\n
+"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.075"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvMp7" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

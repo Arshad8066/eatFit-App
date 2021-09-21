@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "656003081150",
+    "project_id": "fir-one-fb070",
+    "storage_bucket": "fir-one-fb070.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656003081150:android:b0db8ce256568411a98fef",
+        "android_client_info": {
+          "package_name": "com.ravi.firebaseone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656003081150-8308ad64jged6ntmgmrr5oehkt231hif.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ravi.firebaseone",
+            "certificate_hash": "72c3475e4b182abb3f287105e7319eda487e75ce"
+          }
+        },
+        {
+          "client_id": "656003081150-egq234q1bg702rochhrhd6jlrlp0m1q8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMbZgDPmbPQhHyr6hCqCCNwtj0m7n3eD8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656003081150-egq234q1bg702rochhrhd6jlrlp0m1q8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
